@@ -33,6 +33,8 @@ cd <project name>
 virtualenv env
 ```
 
+Also be sure that `env/` is in your `.gitignore` file. The environment is NOT portable and should not tracked in the pjects repo.
+
 At this point the project is ready, but not for development.
 
 ## Developing Python projects
